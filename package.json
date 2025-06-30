@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10"
+  },
+  "scripts": {
+    "tailwind:run": "npx @tailwindcss/cli -i ./public/styles.css -o ./output/output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.10",
+    "vite": "^6.3.5"
+  }
+}
